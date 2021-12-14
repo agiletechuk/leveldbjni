@@ -43,7 +43,7 @@ echo "***************************"
 cd "${LEVELDBJNI_HOME}"
 rm -rf leveldbjni-osx/target
 export CXXFLAGS="-std=c++11"
-export OSX_VERSION="11.3"
+export OSX_VERSION="12.0"
 export OSX_SDKS_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs"
 mvn clean install -P download -P osx
 
